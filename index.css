@@ -2,8 +2,8 @@
   PRIMARY STRUCTURE
 ============================================================ */
 body{
-
-  background-image: url("img/etoile");
+  background-color: rgba(156,26,25, 0.8)!important;
+  /*background-image: url("img/etoile.jpg");*/
   color:black;
   background-attachment: fixed;
 
@@ -13,7 +13,7 @@ body{
 nav{
   margin-left: 40%;
   position:fixed;
-  background-color: rgba(156,26,25, 0.8)!important;
+  background-color: rgba(0,0,0, 0.6)!important;
   border-radius: 30%;
   border :1px solid yellow;
 
@@ -24,6 +24,7 @@ nav{
 .container {
   max-width: 960px;
   margin: 0 auto;
+
 }
 /* ============================================================
   SECTIONS
@@ -33,16 +34,25 @@ section.module:last-child {
 }
 section.module h2 {
   margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
-  font-size: 15px;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 50px;
 }
+
+.big{
+  margin-bottom: 40px;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 40px;
+}
+
+
 section.module p {
   margin-bottom: 40px;
   font-size: 50px!important;
   font-weight: 300;
   text-align: center;
-  color: purple;
-  text-shadow: 0 0 10px rgba(255, 255, 0, 0.8);
+  color: black;
+  text-shadow: 0 0 10px rgb(255, 255, 0);
+  font-family: 'Mountains of Christmas', cursive;
 }
 section.module p:last-child {
   margin-bottom: 0;
@@ -50,6 +60,8 @@ section.module p:last-child {
 section.module.content {
   padding: 40px 0;
   color: blue;
+  background-image: url("img/etoile.jpg");
+  background-attachment: fixed;
 
 }
 section.module.parallax {
@@ -62,17 +74,17 @@ section.module.parallax {
 section.module.parallax h1:first-child {
   /*color: rgba(156, 156, 156, 0.8);*/
   color:red;
-  font-size: 24px;
+  font-size: 30px;
   line-height: 600px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(255, 255, 0, 0.8);
-  font-family: 'Mountains of Christmas', cursive;
-
+  font-family: 'Mountains of Christmas', cursive!important;
 }
-section.module.parallax-1 {
-  background-image: url("img/multi.jpeg");
+section.module.parallax-1{
+  background-image: url("img/2017.png");
+
 
 }
 section.module.parallax-2 {
@@ -84,10 +96,10 @@ section.module.parallax-3 {
 
 @media all and (min-width: 600px) {
   section.module h2 {
-    font-size: 100%;
+    font-size: 150%;
   }
   section.module p {
-    font-size: 15px;
+    font-size: 30%;
   }
   section.module.parallax h1 {
     font-size: 130%;
@@ -95,6 +107,6 @@ section.module.parallax-3 {
 }
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
-    font-size: 40px;
+    font-size: 30%;
   }
 } 
