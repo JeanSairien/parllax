@@ -1,25 +1,6 @@
 /* ============================================================
   PRIMARY STRUCTURE
 ============================================================ */
-body{
-
-  background-image: url("img/etoile");
-  color:black;
-  background-attachment: fixed;
-
-
-
-}
-nav{
-  position:fixed;
-  background-color: rgba(156,26,25, 0.8)!important;
-  border-radius: 30%;
-  border :1px solid yellow;
-
-
-
-}
-
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -40,15 +21,12 @@ section.module p {
   font-size: 50px!important;
   font-weight: 300;
   text-align: center;
-  color: yellow;
 }
 section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.content {
   padding: 40px 0;
-  color: blue;
-
 }
 section.module.parallax {
   height: 600px;
@@ -57,7 +35,7 @@ section.module.parallax {
   background-attachment: fixed;
   background-size: cover;
 }
-section.module.parallax h1:first-child {
+section.module.parallax h1 {
   /*color: rgba(156, 156, 156, 0.8);*/
   color:red;
   font-size: 24px;
@@ -67,32 +45,31 @@ section.module.parallax h1:first-child {
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(255, 255, 0, 0.8);
   font-family: 'Mountains of Christmas', cursive;
-
 }
 section.module.parallax-1 {
-  background-image: url("img/multi.jpeg");
+  background-image: url("img/instru.jpg");
 
 }
 section.module.parallax-2 {
-  background-image: url("img/glace.jpeg");
+  background-image: url("img/boules.jpg");
 }
 section.module.parallax-3 {
-  background-image: url("img/boule2.jpeg");
+  background-image: url("img/3.jpg");
 }
 
 @media all and (min-width: 600px) {
   section.module h2 {
-    font-size: 100%;
+    font-size: 21px;
   }
   section.module p {
-    font-size: 15px;
+    font-size: 10px;
   }
   section.module.parallax h1 {
-    font-size: 130%;
+    font-size: 49px;
   }
 }
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
-    font-size: 40px;
+    font-size: 80px;
   }
 } 
