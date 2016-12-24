@@ -11,6 +11,7 @@ body{
 
 }
 nav{
+  margin-left: 30%;
   position:fixed;
   background-color: rgba(156,26,25, 0.8)!important;
   border-radius: 30%;
@@ -40,7 +41,8 @@ section.module p {
   font-size: 50px!important;
   font-weight: 300;
   text-align: center;
-  color: yellow;
+  color: purple;
+  text-shadow: 0 0 10px rgba(255, 255, 0, 0.8);
 }
 section.module p:last-child {
   margin-bottom: 0;

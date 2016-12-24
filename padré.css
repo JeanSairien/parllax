@@ -13,7 +13,7 @@ section.module:last-child {
 }
 section.module h2 {
   margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Mountains of Christmas', cursive;
   font-size: 15px;
 }
 section.module p {
@@ -60,12 +60,13 @@ section.module.parallax-3 {
 @media all and (min-width: 600px) {
   section.module h2 {
     font-size: 21px;
+    font-family: 'Mountains of Christmas', cursive;
   }
   section.module p {
     font-size: 10px;
   }
   section.module.parallax h1 {
-    font-size: 49px;
+    font-size: 30px;
   }
 }
 @media all and (min-width: 960px) {
